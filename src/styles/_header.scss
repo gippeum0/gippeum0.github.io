@@ -1,16 +1,11 @@
-#particles-js {
-  background: "$main";
-  display: flex;
-  vertical-align: bottom;
+#particles-js{
   width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('https://images.pexels.com/photos/6185013/pexels-photo-6185013.jpeg');
   background-size: cover;
-  background-attachment: fixed;
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
-  }
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .header {
